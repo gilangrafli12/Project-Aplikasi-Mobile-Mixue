@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MixueApp">
         <activity
-            android:name=".SplashActivity"
+            android:name=".ProfileEditActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,6 +21,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".OnboardingActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".ProfileActivity" />
+
     </application>
 
 </manifest>

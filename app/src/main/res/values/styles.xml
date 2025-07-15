@@ -1,0 +1,17 @@
+<resources>
+    <!-- ... other styles ... -->
+
+    <!-- Text appearance for active state -->
+    <style name="TextAppearance.BottomNavigationView.Active" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <!-- Text appearance for inactive state -->
+    <style name="TextAppearance.BottomNavigationView.Inactive" parent="TextAppearance.AppCompat.Small">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#D2EEFC</item>
+    </style>
+</resources>
