@@ -1,0 +1,105 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+
+    <!-- Header -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:background="@drawable/profile_header_background"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/back_button"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:src="@drawable/ic_arrow_back"
+            android:contentDescription="Back"
+            android:layout_marginEnd="16dp"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Detail Produk"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:fontFamily="@font/poppins_bold" />
+    </LinearLayout>
+
+    <!-- Scrollable Content -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Gambar Produk -->
+            <ImageView
+                android:id="@+id/product_image"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:background="@drawable/contoh_produk"
+                android:contentDescription="Product Image" />
+
+            <!-- Nama Produk -->
+            <TextView
+                android:id="@+id/product_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mixue Ice Cream Strawberry"
+                android:textSize="22sp"
+                android:textColor="@android:color/black"
+                android:fontFamily="@font/poppins_bold"
+                android:layout_marginTop="16dp" />
+
+            <!-- Harga -->
+            <TextView
+                android:id="@+id/product_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rp 12.000"
+                android:textSize="18sp"
+                android:textColor="@color/red"
+                android:fontFamily="@font/poppins_bold"
+                android:layout_marginTop="4dp" />
+
+            <!-- Deskripsi -->
+            <TextView
+                android:id="@+id/product_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ice cream strawberry khas Mixue dengan rasa manis dan segar, cocok untuk segala suasana."
+                android:textSize="14sp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="12dp"
+                android:fontFamily="@font/poppins_regular"
+                android:justificationMode="inter_word" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Tombol Pesan Sekarang -->
+    <Button
+        android:id="@+id/order_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pesan Sekarang"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@color/red"
+        android:fontFamily="@font/poppins_bold"
+        android:padding="16dp"
+        android:layout_margin="16dp" />
+</LinearLayout>

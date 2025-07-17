@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/rounded_edittext"
+    android:padding="12dp"
+    android:layout_marginBottom="12dp"
+    android:elevation="2dp">
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        android:layout_marginEnd="12dp"
+        android:background="@drawable/rounded_edittext"
+        android:contentDescription="Product Image" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/nama_produk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mixue Ice Cream"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:fontFamily="@font/poppins_bold"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/tanggal_pembelian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dibeli pada: 10 Juli 2025"
+            android:textSize="14sp"
+            android:textColor="@android:color/darker_gray"
+            android:fontFamily="@font/poppins_regular" />
+
+        <TextView
+            android:id="@+id/harga_produk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rp 15.000"
+            android:textSize="14sp"
+            android:textColor="@android:color/holo_red_dark"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/poppins_bold" />
+
+        <Button
+            android:id="@+id/detail_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Detail"
+            android:backgroundTint="@color/red"
+            android:textColor="@android:color/white"
+            android:fontFamily="@font/poppins_bold"
+            android:layout_marginTop="8dp"
+            android:paddingLeft="28dp"
+            android:paddingRight="28dp" />
+    </LinearLayout>
+
+</LinearLayout>

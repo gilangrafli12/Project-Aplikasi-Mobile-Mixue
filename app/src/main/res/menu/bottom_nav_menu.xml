@@ -20,7 +20,7 @@
     <item
         android:id="@+id/navigation_history"
         android:icon="@drawable/ic_riwayat"
-        android:title="Donasi"
+        android:title="Riwayat"
         app:showAsAction="ifRoom" />
 
     <item

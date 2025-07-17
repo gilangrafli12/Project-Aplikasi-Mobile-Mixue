@@ -120,7 +120,7 @@
             android:layout_height="120dp"
             android:hint="Tanyakan pertanyaanmu disini..."
             android:padding="12dp"
-            android:background="@drawable/edit_text_background"
+            android:background="@drawable/rounded_edittext"
             android:layout_marginBottom="16dp"
             android:textSize="14sp"
             android:fontFamily="@font/poppins_regular"
