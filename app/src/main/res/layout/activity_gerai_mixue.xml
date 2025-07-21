@@ -9,7 +9,7 @@
         android:id="@+id/layout_atas"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_above="@id/navigation_bar_include"
+        android:layout_above="@+id/bottomNavigationView"
         android:orientation="vertical">
 
         <!-- Header dengan Search Bar -->
@@ -50,35 +50,16 @@
             android:gravity="center_vertical">
 
             <TextView
-                android:id="@+id/tvWelcome"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Selamat Datang Kepada"
-                android:textStyle="bold"
-                android:textSize="16sp"
-                android:textColor="@android:color/white"
-                android:fontFamily="@font/poppins_bold"/>
-
-            <TextView
-                android:id="@+id/tvUserName"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Gilang Rafli"
-                android:textSize="14sp"
-                android:textColor="@android:color/white"
-                android:layout_marginTop="2dp"
-                android:fontFamily="@font/poppins_regular"/>
-
-            <TextView
                 android:id="@+id/tvWeatherInfo"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Cuaca di Jakarta: Cerah 32°C"
+                android:text="Memuat informasi cuaca..."
                 android:textSize="14sp"
                 android:textColor="@android:color/white"
                 android:layout_marginTop="8dp"
-                android:fontFamily="@font/poppins_regular"/>
+                android:fontFamily="@font/poppins_regular" />
         </LinearLayout>
+
 
         <!-- RecyclerView Gerai -->
         <androidx.recyclerview.widget.RecyclerView
@@ -91,7 +72,7 @@
 
     <!-- Bottom Navigation Bar -->
     <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/navigation_bar_include"
+        android:id="@+id/bottomNavigationView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"

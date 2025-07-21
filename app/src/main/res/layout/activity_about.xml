@@ -49,7 +49,7 @@
             android:id="@+id/about_image"
             android:layout_width="200dp"
             android:layout_height="200dp"
-            android:src="@drawable/ic_about_us"
+            android:src="@drawable/logo"
             android:layout_gravity="center_horizontal"
             android:layout_marginBottom="16dp"
             android:layout_marginTop="16dp" />
@@ -59,11 +59,12 @@
             android:id="@+id/about_description"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Aplikasi BeWise merupakan aplikasi yang dibangun dengan tujuan mengatasi permasalahan barang-barang bekas yang masih layak pakai namun dibuang atau ditumpuk oleh sebagian orang.\n\nDengan aplikasi ini, para pengguna dapat dengan aman menyalurkan barang-barang donasi ke tempat yang sesuai dan yang membutuhkan."
+            android:text="Aplikasi MixueApp merupakan aplikasi resmi untuk membantu pengguna dalam menemukan lokasi gerai Mixue terdekat, melihat daftar produk es krim dan minuman, serta melakukan pemesanan secara cepat dan praktis.\n\nDengan aplikasi ini, pengguna dapat menikmati pengalaman Mixue yang lebih nyaman, mendapatkan promo terbaru, dan melacak riwayat pembelian dengan mudah."
             android:textSize="16sp"
             android:textColor="#000000"
             android:fontFamily="@font/poppins_regular"
             android:layout_marginBottom="16dp"
             android:justificationMode="inter_word" />
+
     </LinearLayout>
 </RelativeLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "3897617456",
+    "project_id": "mixueapp-d75ab",
+    "storage_bucket": "mixueapp-d75ab.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:3897617456:android:786261e1e0f3fcbc7f91f5",
+        "android_client_info": {
+          "package_name": "com.example.mixueapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsK5q_Jg9i844wZHXefl4hM_xTpIP9AxI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

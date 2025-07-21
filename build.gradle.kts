@@ -5,12 +5,13 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-//        classpath("com.google.gms:google-services:4.4.1") // <-- pakai string langsung
+        // Tambahkan ini jika belum ada (untuk plugin google-services)
+        classpath("com.google.gms:google-services:4.4.1")
     }
 }
 
 plugins {
     alias(libs.plugins.android.application) apply false
     alias(libs.plugins.kotlin.android) apply false
-//    alias(libs.plugins.google.services) apply false // kalau memang pakai TOML
+    alias(libs.plugins.google.gms.google.services) apply false
 }

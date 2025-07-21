@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- State saat item dipilih -->
+    <item android:state_selected="true">
+        <shape android:shape="rectangle">
+            <solid android:color="#FFEB3B"/> <!-- Ganti dengan warna yang lo mau -->
+            <corners android:radius="8dp"/>
+        </shape>
+    </item>
+
+    <!-- State default (tidak dipilih) -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#FFFFFF"/> <!-- Background default -->
+            <corners android:radius="8dp"/>
+        </shape>
+    </item>
+</selector>

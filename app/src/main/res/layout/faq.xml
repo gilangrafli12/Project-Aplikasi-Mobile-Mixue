@@ -131,7 +131,7 @@
             android:id="@+id/tanya_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:backgroundTint="#1A237E"
+            android:backgroundTint="@color/red"
             android:layout_marginTop="140dp"
             android:text="Tanya"
             android:textColor="@android:color/white"

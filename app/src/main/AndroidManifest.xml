@@ -16,7 +16,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MixueApp">
         <activity
-            android:name=".RiwayatActivity"
+            android:name=".OnboardingActivity"
             android:exported="true"
             tools:ignore="Instantiatable">
             <intent-filter>
@@ -24,9 +24,20 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".OnboardingActivity" />
+        <activity android:name=".RegistrasiActivity" />
+        <activity android:name=".SplashActivity" />
         <activity android:name=".LoginActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".AboutActivity" />
+        <activity android:name=".DetailGeraiActivity" />
+        <activity android:name=".DetailProdukActivity" />
+        <activity android:name=".FaqActivity" />
+        <activity android:name=".ListGeraiActivity" />
+        <activity android:name=".ListProdukActivity" />
         <activity android:name=".ProfileActivity" />
+        <activity android:name=".ProfileEditActivity" />
+        <activity android:name=".RiwayatActivity" />
+
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
